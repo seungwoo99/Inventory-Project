@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Inventory.Cus_InventoryController">
+   <children>
+      <Text layoutX="253.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Games">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font></Text>
+      <TableView fx:id="table_games" layoutX="7.0" layoutY="70.0" prefHeight="270.0" prefWidth="570.0">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="40.0" text="ID" />
+          <TableColumn fx:id="col_title2" prefWidth="131.0" text="Title" />
+            <TableColumn fx:id="col_version" prefWidth="110.0" text="Version" />
+            <TableColumn fx:id="col_genre" prefWidth="106.0" text="Genre" />
+            <TableColumn fx:id="col_company" prefWidth="127.0" text="Company" />
+            <TableColumn fx:id="col_price2" prefWidth="61.0" text="Price" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
